@@ -19,4 +19,6 @@ app.post("/api/register", (req,res)=>{
   res.status(200).send(`Success, ${username}!`);
 });
 
+app.get('/api/register', (req, res) => res.send('!'));
+
 app.listen(PORT, () => console.log(`Example app listening on port ${PORT}!`));

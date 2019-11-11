@@ -13,9 +13,6 @@ IncrementLikes = () => {
   this.setState ({ likes : this.state.likes + 1});
 }
 
-
-
-
 render() {
   return (
     <div>
